@@ -1,0 +1,9 @@
+#ifndef TRANSACTION_H_INCLUDED
+#define TRANSACTION_H_INCLUDED
+
+class Transaction
+{
+
+};
+
+#endif // TRANSACTION_H_INCLUDED

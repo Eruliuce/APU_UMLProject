@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\arnaud\dev\apu_umlproject\main.cpp
+	<iostream>
+
+1463502710 source:c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.cpp
+	"LearningManagementSystem.h"
+
+1463502553 c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.h
+	<string>
+	<set>
+	<map>
+	<memory>
+	"Course.h"
+	"User.h"
+
+1463504354 c:\users\arnaud\dev\apu_umlproject\course.h
+	<string>
+	<map>
+
+1463503315 c:\users\arnaud\dev\apu_umlproject\user.h
+	<string>
+	<map>
+	<set>
+	<memory>
+	"Cart.h"
+	"Transaction.h"
+
+1463504354 c:\users\arnaud\dev\apu_umlproject\cart.h
+	<map>
+	<memory>
+	"Course.h"
+
+1463497715 c:\users\arnaud\dev\apu_umlproject\transaction.h
+
+1463504354 source:c:\users\arnaud\dev\apu_umlproject\course.cpp
+	"Course.h"
+
+1463504389 source:c:\users\arnaud\dev\apu_umlproject\cart.cpp
+	"Cart.h"
+
