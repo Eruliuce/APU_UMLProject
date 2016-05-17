@@ -3,7 +3,10 @@
 
 class Transaction
 {
+public :
 
+private :
+    //PaymentMethod
 };
 
 #endif // TRANSACTION_H_INCLUDED

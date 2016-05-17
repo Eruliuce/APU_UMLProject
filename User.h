@@ -15,7 +15,7 @@ public :
     void assignCourse(std::shared_ptr<Course>);
     void removeCourse(std::string title);
     void pay();
-    int verifyPassword(std::string password); //return 0 if good password
+    bool verifyPassword(std::string password); //return 0 if good password
 private :
     std::string m_username, m_password, m_name, m_firstname, m_email, m_phone;
     bool m_isAdmin;

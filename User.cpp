@@ -20,7 +20,7 @@ void User::pay()
     //TODO
 }
 
-int User::verifyPassword(std::string password)
+bool User::verifyPassword(std::string password)
 {
-    return m_password.compare(password);
+    return m_password.compare(password) == 0;
 }

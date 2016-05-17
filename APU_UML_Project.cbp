@@ -32,6 +32,25 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Cart.cpp" />
+		<Unit filename="Cart.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Course.cpp" />
+		<Unit filename="Course.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="LearningManagementSystem.cpp" />
+		<Unit filename="LearningManagementSystem.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Transaction.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="User.cpp" />
+		<Unit filename="User.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

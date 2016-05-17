@@ -11,7 +11,7 @@ int LearningManagementSystem::login(std::string username, std::string password)
     {
         return 1; //user does not exist
     }
-    else if(m_users.find(username)->second->verifyPassword(password));
+    else if(!(m_users.find(username)->second->verifyPassword(password)))
     {
         return 2; //wrong password
     }
