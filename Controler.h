@@ -2,6 +2,8 @@
 #define CONTROLER_H_INCLUDED
 
 #include <memory>
+#include "LearningManagementSystem.h"
+#include "ConsoleView.h"
 
 class Controler
 {

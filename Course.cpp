@@ -14,3 +14,18 @@ float Course::getPrice()
 {
     return m_price;
 }
+
+std::string Course::getAuthor()
+{
+    return m_author;
+}
+std::string Course::getDuration()
+{
+    return m_duration;
+}
+
+std::string Course::getDescription()
+{
+    return m_description;
+}
+

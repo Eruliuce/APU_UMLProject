@@ -17,6 +17,7 @@ public :
     void removeCourse(std::string title);
     int pay(std::unique_ptr<PaymentMethod> paymentMethod, std::string date); // 0 : payment successful, 1 : empty cart
     bool verifyPassword(std::string password); //return 0 if good password
+    bool isAdmin();
 private :
     std::string m_username, m_password, m_name, m_firstname, m_email, m_phone;
     bool m_isAdmin;

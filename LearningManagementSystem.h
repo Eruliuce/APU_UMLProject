@@ -7,6 +7,7 @@
 #include <memory>
 #include "Course.h"
 #include "User.h"
+#include "const.h"
 
 class LearningManagementSystem
 {
@@ -18,6 +19,7 @@ public :
     std::set<std::shared_ptr<Course>> searchCourses(std::string keyword); //return the list of courses containing a keyword
     int addCourse(std::string title, std::string author, std::string duration, float price, std::string description); // 0 Ok, 1 title already exists
     void assignCourse(std::string user, std::string title);
+    ConnectStatus getUserStatus();
 private :
     std::shared_ptr<User> m_currentUser;
     std::map<std::string, std::shared_ptr<Course>> m_courses;

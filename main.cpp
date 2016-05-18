@@ -1,11 +1,9 @@
-#include <iostream>
-#include "LearningManagementSystem.h"
+#include "Controler.h"
 
 using namespace std;
 
 int main()
 {
     Controler c;
-
     return 0;
 }

@@ -32,3 +32,9 @@ bool User::verifyPassword(std::string password)
 {
     return m_password.compare(password) == 0;
 }
+
+bool User::isAdmin()
+{
+    return m_isAdmin;
+}
+

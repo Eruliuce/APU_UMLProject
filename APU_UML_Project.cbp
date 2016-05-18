@@ -32,8 +32,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Card.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="Cart.cpp" />
 		<Unit filename="Cart.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ConsoleView.cpp" />
+		<Unit filename="ConsoleView.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Controler.cpp" />
+		<Unit filename="Controler.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="Course.cpp" />
@@ -44,11 +55,21 @@
 		<Unit filename="LearningManagementSystem.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="PaymentMethod.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Paypal.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Transaction.cpp" />
 		<Unit filename="Transaction.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="User.cpp" />
 		<Unit filename="User.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="const.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="main.cpp" />

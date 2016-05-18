@@ -67,3 +67,13 @@ void LearningManagementSystem::assignCourse(std::string user, std::string title)
 {
     m_users.find(user)->second->assignCourse(m_courses.find(title)->second);
 }
+
+ConnectStatus LearningManagementSystem::getUserStatus()
+{
+    if(m_currentUser == nullptr)
+        return NOT_CONNECTED;
+    else if(m_currentUser->isAdmin())
+        return ADMIN;
+    else
+        return USER;
+}
