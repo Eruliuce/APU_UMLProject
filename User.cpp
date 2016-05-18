@@ -15,9 +15,17 @@ void User::removeCourse(std::string title)
     m_assignedCourses.erase(m_assignedCourses.find(title));
 }
 
-void User::pay()
+int User::pay(std::unique_ptr<PaymentMethod> paymentMethod, std::string date)
 {
-    //TODO
+    if(m_cart->isEmpty())
+    {
+        return 1;
+    }
+
+    m_transactions.insert(std::make_unique<Transaction>(std::move(paymentMethod), date, m_cart->getPrice()));
+    m_cart->voidCart();
+
+    return 0;
 }
 
 bool User::verifyPassword(std::string password)

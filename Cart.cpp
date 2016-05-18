@@ -27,3 +27,9 @@ float Cart::getPrice()
         price += i->second->getPrice();
     return price;
 }
+
+bool Cart::isEmpty()
+{
+    return m_courses.empty();
+}
+

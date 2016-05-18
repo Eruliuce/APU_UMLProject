@@ -3,9 +3,8 @@
 	<iostream>
 	"LearningManagementSystem.h"
 
-1463505845 source:c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.cpp
+1463506444 source:c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.cpp
 	"LearningManagementSystem.h"
-	<iostream>
 
 1463502553 c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.h
 	<string>
@@ -19,27 +18,37 @@
 	<string>
 	<map>
 
-1463506008 c:\users\arnaud\dev\apu_umlproject\user.h
+1463551522 c:\users\arnaud\dev\apu_umlproject\user.h
 	<string>
 	<map>
 	<set>
 	<memory>
+	<utility>
 	"Cart.h"
 	"Transaction.h"
 
-1463504354 c:\users\arnaud\dev\apu_umlproject\cart.h
+1463550892 c:\users\arnaud\dev\apu_umlproject\cart.h
 	<map>
 	<memory>
 	"Course.h"
 
-1463504852 c:\users\arnaud\dev\apu_umlproject\transaction.h
+1463551430 c:\users\arnaud\dev\apu_umlproject\transaction.h
+	<string>
+	<memory>
+	<utility>
+	"PaymentMethod.h"
 
 1463504354 source:c:\users\arnaud\dev\apu_umlproject\course.cpp
 	"Course.h"
 
-1463504389 source:c:\users\arnaud\dev\apu_umlproject\cart.cpp
+1463550892 source:c:\users\arnaud\dev\apu_umlproject\cart.cpp
 	"Cart.h"
 
 1463505594 source:c:\users\arnaud\dev\apu_umlproject\user.cpp
 	"user.h"
+
+1463549924 c:\users\arnaud\dev\apu_umlproject\paymentmethod.h
+
+1463551457 source:c:\users\arnaud\dev\apu_umlproject\transaction.cpp
+	"Transaction.h"
 

@@ -5,6 +5,7 @@
 #include <map>
 #include <set>
 #include <memory>
+#include <utility>
 #include "Cart.h"
 #include "Transaction.h"
 
@@ -14,7 +15,7 @@ public :
     User(std::string username, std::string password, std::string name, std::string firstname, std::string email, std::string phone, bool isAdmin);
     void assignCourse(std::shared_ptr<Course>);
     void removeCourse(std::string title);
-    void pay();
+    int pay(std::unique_ptr<PaymentMethod> paymentMethod, std::string date); // 0 : payment successful, 1 : empty cart
     bool verifyPassword(std::string password); //return 0 if good password
 private :
     std::string m_username, m_password, m_name, m_firstname, m_email, m_phone;

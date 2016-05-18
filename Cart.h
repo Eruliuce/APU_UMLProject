@@ -13,6 +13,7 @@ public :
     void removeFromCart(std::string title);
     void voidCart();
     float getPrice();
+    bool isEmpty();
 private :
     float m_totalPrice;
     std::map<std::string, std::shared_ptr<Course>> m_courses;
