@@ -13,6 +13,7 @@ public :
     std::string getDuration();
     std::string getDescription();
     float getPrice();
+    std::string askTitle();
 private :
     std::string m_title, m_author, m_duration, m_description;
     float m_price;

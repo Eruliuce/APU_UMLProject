@@ -6,7 +6,10 @@
 
 class Card : public PaymentMethod
 {
-    std::string cardNumber, expirationDate, securityCode;
+public :
+    Card(std::string cardNumber, std::string expirationDate, std::string securityCode);
+private :
+    std::string m_cardNumber, m_expirationDate, m_securityCode;
 };
 
 #endif // CARD_H_INCLUDED

@@ -2,10 +2,11 @@
 1463580845 source:c:\users\arnaud\dev\apu_umlproject\main.cpp
 	"Controler.h"
 
-1463580664 source:c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.cpp
+1463651860 source:c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.cpp
 	"LearningManagementSystem.h"
+	<iostream>
 
-1463579964 c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.h
+1463652336 c:\users\arnaud\dev\apu_umlproject\learningmanagementsystem.h
 	<string>
 	<set>
 	<map>
@@ -14,11 +15,11 @@
 	"User.h"
 	"const.h"
 
-1463583002 c:\users\arnaud\dev\apu_umlproject\course.h
+1463638733 c:\users\arnaud\dev\apu_umlproject\course.h
 	<string>
 	<map>
 
-1463580801 c:\users\arnaud\dev\apu_umlproject\user.h
+1463649880 c:\users\arnaud\dev\apu_umlproject\user.h
 	<string>
 	<map>
 	<set>
@@ -27,8 +28,10 @@
 	"Cart.h"
 	"Transaction.h"
 
-1463550892 c:\users\arnaud\dev\apu_umlproject\cart.h
+1463647108 c:\users\arnaud\dev\apu_umlproject\cart.h
 	<map>
+	<set>
+	<vector>
 	<memory>
 	"Course.h"
 
@@ -41,10 +44,10 @@
 1463583002 source:c:\users\arnaud\dev\apu_umlproject\course.cpp
 	"Course.h"
 
-1463550892 source:c:\users\arnaud\dev\apu_umlproject\cart.cpp
+1463647189 source:c:\users\arnaud\dev\apu_umlproject\cart.cpp
 	"Cart.h"
 
-1463580801 source:c:\users\arnaud\dev\apu_umlproject\user.cpp
+1463651389 source:c:\users\arnaud\dev\apu_umlproject\user.cpp
 	"user.h"
 
 1463549924 c:\users\arnaud\dev\apu_umlproject\paymentmethod.h
@@ -52,20 +55,25 @@
 1463551457 source:c:\users\arnaud\dev\apu_umlproject\transaction.cpp
 	"Transaction.h"
 
-1463585059 source:c:\users\arnaud\dev\apu_umlproject\consoleview.cpp
+1463652329 source:c:\users\arnaud\dev\apu_umlproject\consoleview.cpp
 	"ConsoleView.h"
 
-1463585059 c:\users\arnaud\dev\apu_umlproject\consoleview.h
+1463652324 c:\users\arnaud\dev\apu_umlproject\consoleview.h
 	<iostream>
 	<set>
+	<vector>
 	<memory>
 	<string>
+	<vector>
 	"const.h"
 	"Course.h"
+	"PaymentMethod.h"
+	"Card.h"
+	"Paypal.h"
 
-1463581785 c:\users\arnaud\dev\apu_umlproject\const.h
+1463649198 c:\users\arnaud\dev\apu_umlproject\const.h
 
-1463582383 source:c:\users\arnaud\dev\apu_umlproject\controler.cpp
+1463651418 source:c:\users\arnaud\dev\apu_umlproject\controler.cpp
 	"Controler.h"
 	"const.h"
 
@@ -73,4 +81,18 @@
 	<memory>
 	"LearningManagementSystem.h"
 	"ConsoleView.h"
+
+1463647393 c:\users\arnaud\dev\apu_umlproject\card.h
+	<string>
+	"PaymentMethod.h"
+
+1463647496 c:\users\arnaud\dev\apu_umlproject\paypal.h
+	<string>
+	"PaymentMethod.h"
+
+1463647417 source:c:\users\arnaud\dev\apu_umlproject\card.cpp
+	"Card.h"
+
+1463647496 source:c:\users\arnaud\dev\apu_umlproject\paypal.cpp
+	"Paypal.h"
 

@@ -18,6 +18,11 @@ public :
     int pay(std::unique_ptr<PaymentMethod> paymentMethod, std::string date); // 0 : payment successful, 1 : empty cart
     bool verifyPassword(std::string password); //return 0 if good password
     bool isAdmin();
+    std::vector<std::string> getCartContent();
+    void addToCart(std::shared_ptr<Course>);
+    void removeFromCart(std::string);
+    std::set<std::shared_ptr<Course>> getAssignedCourses();
+    bool posseses(std::string);
 private :
     std::string m_username, m_password, m_name, m_firstname, m_email, m_phone;
     bool m_isAdmin;

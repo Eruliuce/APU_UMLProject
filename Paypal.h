@@ -7,9 +7,9 @@
 class Paypal : public PaymentMethod
 {
 public :
-
+    Paypal(std::string mail);
 private :
-    std::string mail;
+    std::string m_mail;
 };
 
 #endif // PAYPAL_H_INCLUDED

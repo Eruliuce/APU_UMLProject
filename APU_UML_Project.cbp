@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Card.cpp" />
 		<Unit filename="Card.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
@@ -58,6 +59,7 @@
 		<Unit filename="PaymentMethod.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="Paypal.cpp" />
 		<Unit filename="Paypal.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

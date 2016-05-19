@@ -28,8 +28,25 @@ float Cart::getPrice()
     return price;
 }
 
+std::vector<std::string> Cart::getContent()
+{
+    std::vector<std::string> s;
+    std::string tmp;
+    for(auto i = m_courses.begin(); i != m_courses.end(); ++i)
+    {
+        s.push_back(i->second->getTitle() + " - " + std::to_string(i->second->getPrice()) + "MYR");
+    }
+    s.push_back("Total price : " + std::to_string(getPrice()) + "MYR");
+    return s;
+}
+
 bool Cart::isEmpty()
 {
     return m_courses.empty();
+}
+
+std::shared_ptr<std::map<std::string, std::shared_ptr<Course>>> Cart::getCourses()
+{
+    return std::make_shared<std::map<std::string, std::shared_ptr<Course>>>(m_courses);
 }
 
